@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  padding: 10px;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 10px;
+}
+
+.stat {
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.total-items {
+  background: #e6f0ff;
+  color: #0056d2;
+}
+
+.low-stock {
+  background: #ffe6e6;
+  color: #d20000;
+}
+
+.stat h2 {
+  font-size: 14px;
+}
+
+.stat p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.critical-alerts {
+  background: #fff8e1;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.alerts-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #795200;
+  margin-bottom: 10px;
+}
+
+.urgent-tag {
+  background: red;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.alert {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.alert-info {
+  display: flex;
+  justify-content: space-between;
+  color: #c00;
+  font-weight: bold;
+}
+
+.alert-info span {
+  color: #888;
+  font-weight: normal;
+}
+
+.inventory {
+  padding: 16px;
+}
+
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-btn {
+  background: #eee;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+.category {
+  margin-top: 12px;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.status.critical {
+  color: red;
+}
+
+.status.good {
+  color: green;
+}
+
+.status.low {
+  color: orange;
+}
+
+.bar {
+  height: 8px;
+  border-radius: 4px;
+  background: #ddd;
+  margin-top: 4px;
+}
+
+.bar.red {
+  background: red;
+}
+
+.bar.green {
+  background: green;
+}
+
+.bar.yellow {
+  background: orange;
+}
+
+.restock {
+  background: #f0f6ff;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.restock h4 {
+  margin-bottom: 12px;
+  color: #0056d2;
+}
+
+.recommendation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.recommendation .info small {
+  color: #555;
+  font-size: 12px;
+}
+
+button.primary {
+  background: #0056d2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+button.secondary {
+  background: white;
+  border: 1px solid #aaa;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.footer button {
+  background: #0056d2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.status.critical {
+  color: red;
+  font-weight: bold;
+}
+
+.status.low {
+  color: orange;
+  font-weight: bold;
+}
+
+.status.good {
+  color: green;
+  font-weight: bold;
+}
+
+.bar {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #ccc; /* fallback */
+  margin-top: 6px;
+}
+
+.bar.critical {
+  background-color: red;
+}
+
+.bar.low {
+  background-color: orange;
+}
+
+.bar.good {
+  background-color: green;
+}
+

@@ -1,0 +1,56 @@
+{
+  "totalItems": 1247,
+  "lowStock": 23,
+  "criticalAlerts": [
+    {
+      "name": "Greeting Cards",
+      "depletion": "2 days",
+      "left": 5,
+      "min": 20
+    },
+    {
+      "name": "Printer Ink Black",
+      "depletion": "4 days",
+      "left": 12,
+      "min": 15
+    }
+  ],
+  "inventory": [
+    {
+      "category": "Papeterie",
+      "icon": "📨",
+      "items": 45,
+      "status": "8 critical",
+      "statusType": "critical",
+      "progress": 60
+    },
+    {
+      "category": "Tools & Equipment",
+      "icon": "🛠️",
+      "items": 28,
+      "status": "All good",
+      "statusType": "good",
+      "progress": 90
+    },
+    {
+      "category": "Electronics",
+      "icon": "💻",
+      "items": 12,
+      "status": "1 low",
+      "statusType": "low",
+      "progress": 50
+    }
+  ],
+  "restockRecommendations": [
+    {
+      "title": "Order office supplies",
+      "delivery": "3–5 days",
+      "action": "Order Now"
+    },
+    {
+      "title": "Schedule ink refill",
+      "delivery": "1–2 days",
+      "action": "Schedule"
+    }
+  ]
+}

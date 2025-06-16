@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inventory Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>📦 Inventory Manager</h1>
+      <div class="header-icons">🔔 ⚙️</div>
+    </header>
+
+    <section class="stats">
+      <div class="stat total-items">
+        <h2>Total Items</h2>
+        <p>1,247</p>
+      </div>
+      <div class="stat low-stock">
+        <h2>Low Stock</h2>
+        <p>23</p>
+      </div>
+    </section>
+
+    <section class="critical-alerts">
+      <div class="alerts-header">
+        <span>⚠️ Critical Alerts</span>
+        <span class="urgent-tag">Urgent</span>
+      </div>
+      <div class="alert">
+        <strong>Office Paper A4</strong>
+        <small>Stock depletes in 2 days</small>
+        <div class="alert-info">5 left <span>Min: 20</span></div>
+      </div>
+      <div class="alert">
+        <strong>Printer Ink Black</strong>
+        <small>Stock depletes in 4 days</small>
+        <div class="alert-info">12 left <span>Min: 15</span></div>
+      </div>
+    </section>
+
+    <section class="inventory">
+      <div class="inventory-header">
+        <h3>Inventory Overview</h3>
+        <button class="filter-btn">🔍 Filter</button>
+      </div>
+
+      <div class="category office">
+        <div class="category-header">
+          <span>📨 Office Supplies</span>
+          <span class="status critical">• 3 critical</span>
+        </div>
+        <div class="bar red" style="width: 60%"></div>
+      </div>
+
+      <div class="category tools">
+        <div class="category-header">
+          <span>🛠️ Tools & Equipment</span>
+          <span class="status good">All good</span>
+        </div>
+        <div class="bar green" style="width: 90%"></div>
+      </div>
+
+      <div class="category electronics">
+        <div class="category-header">
+          <span>💻 Electronics</span>
+          <span class="status low">• 1 low</span>
+        </div>
+        <div class="bar yellow" style="width: 50%"></div>
+      </div>
+    </section>
+
+    <section class="restock">
+      <h4>📈 Restock Recommendations</h4>
+      <div class="recommendation">
+        <div class="info">
+          <strong>Order office supplies</strong>
+          <small>Estimated delivery: 3–5 days</small>
+        </div>
+        <button class="primary">Order Now</button>
+      </div>
+      <div class="recommendation">
+        <div class="info">
+          <strong>Schedule ink refill</strong>
+          <small>Estimated delivery: 1–2 days</small>
+        </div>
+        <button class="secondary">Schedule</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <button>➕ Add Item</button>
+      <button>🔍 Search</button>
+      <button>📊 Reports</button>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
